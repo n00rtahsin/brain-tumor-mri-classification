@@ -1,0 +1,24 @@
+{
+  "run_tag": "2025-09-01_20-10-25",
+  "n_test": 1502,
+  "classes": [
+    "512Glioma",
+    "512Meningioma",
+    "512Normal",
+    "512Pituitary"
+  ],
+  "models": [
+    "CNN",
+    "CNN_prog_TTA",
+    "ResNet50",
+    "MobileNetV3",
+    "EfficientNetB0_RGB",
+    "CNN+XGB (tuned)",
+    "CNN+SVM (tuned)",
+    "Blend \u03b1=1.00",
+    "Blend (LR on VAL)",
+    "CatBoost (tuned)",
+    "Stacked Meta (SVM+XGB\u2192LR)",
+    "Ensemble (Average)"
+  ]
+}

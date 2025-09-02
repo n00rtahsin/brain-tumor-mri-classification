@@ -1,0 +1,14 @@
+{
+  "classes": [
+    "512Glioma",
+    "512Meningioma",
+    "512Normal",
+    "512Pituitary"
+  ],
+  "n_test": 1515,
+  "models": [
+    "CNN_TTA",
+    "CatBoost_embed",
+    "Blend(CNN_TTA+Cat)"
+  ]
+}

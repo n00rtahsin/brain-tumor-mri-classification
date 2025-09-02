@@ -1,0 +1,10 @@
+               precision    recall  f1-score   support
+
+    512Glioma     0.9177    0.8027    0.8563       375
+512Meningioma     0.8536    0.9223    0.8866       373
+    512Normal     0.9256    0.9525    0.9389       379
+ 512Pituitary     0.9554    0.9707    0.9630       375
+
+     accuracy                         0.9121      1502
+    macro avg     0.9131    0.9120    0.9112      1502
+ weighted avg     0.9132    0.9121    0.9113      1502
